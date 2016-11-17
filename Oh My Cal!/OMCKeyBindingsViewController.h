@@ -32,7 +32,7 @@
  ****************************************************************************/
 
 #import <Cocoa/Cocoa.h>
-#import "MASPreferencesViewController.h"
+#import <MASPreferences/MASPreferencesViewController.h>
 
 // OMCKeyBindingsViewController
 @interface OMCKeyBindingsViewController : NSViewController <MASPreferencesViewController>

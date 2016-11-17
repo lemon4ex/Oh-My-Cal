@@ -32,7 +32,7 @@
  ****************************************************************************/
 
 #import <Cocoa/Cocoa.h>
-#import "MASPreferencesViewController.h"
+#import <MASPreferences/MASPreferencesViewController.h>
 
 // OMCAboutViewController
 @interface OMCAboutViewController : NSViewController <MASPreferencesViewController>

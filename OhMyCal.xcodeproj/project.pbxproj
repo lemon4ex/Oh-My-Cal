@@ -35,12 +35,6 @@
 		83099CB119ADBB2E00DDBF1D /* BGHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83099C9119ADBB2E00DDBF1D /* BGHUDView.m */; };
 		83099CB219ADBB2E00DDBF1D /* BGTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 83099C9319ADBB2E00DDBF1D /* BGTheme.m */; };
 		83099CB319ADBB2E00DDBF1D /* BGThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83099C9519ADBB2E00DDBF1D /* BGThemeManager.m */; };
-		8310B0181A0215F700ED8EB0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8310B0101A0215F700ED8EB0 /* .gitignore */; };
-		8310B0191A0215F700ED8EB0 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 8310B0111A0215F700ED8EB0 /* LICENSE.md */; };
-		8310B01A1A0215F700ED8EB0 /* MASPreferences.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8310B0121A0215F700ED8EB0 /* MASPreferences.podspec */; };
-		8310B01B1A0215F700ED8EB0 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8310B0141A0215F700ED8EB0 /* MASPreferencesWindow.xib */; };
-		8310B01C1A0215F700ED8EB0 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8310B0161A0215F700ED8EB0 /* MASPreferencesWindowController.m */; };
-		8310B01D1A0215F700ED8EB0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8310B0171A0215F700ED8EB0 /* README.md */; };
 		8310B0201A022E7900ED8EB0 /* OMCAboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8310B01F1A022E7900ED8EB0 /* OMCAboutView.xib */; };
 		8310B0231A022EB400ED8EB0 /* OMCAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8310B0221A022EB400ED8EB0 /* OMCAboutViewController.m */; };
 		8310B0251A023BB200ED8EB0 /* OMCGeneralView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8310B0241A023BB200ED8EB0 /* OMCGeneralView.xib */; };
@@ -97,6 +91,7 @@
 		83FD699F19C3694D00B4488C /* OMCScientificStyleCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD699E19C3694D00B4488C /* OMCScientificStyleCalculation.m */; };
 		83FD69A219C3753000B4488C /* OMCCalWithBasicStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD69A119C3753000B4488C /* OMCCalWithBasicStyle.m */; };
 		83FD69A519C3820200B4488C /* OMCCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD69A419C3820200B4488C /* OMCCal.m */; };
+		E98E0D8C1DDDC3F3000CA3FC /* MASPreferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98E0D891DDDC3E9000CA3FC /* MASPreferences.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +101,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 83D5D4C019ADB172004AFD84;
 			remoteInfo = "Oh My Cal!";
+		};
+		E98E0D881DDDC3E9000CA3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98E0D841DDDC3E8000CA3FC /* MASPreferences.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F16AF7F41BA279F10022155C;
+			remoteInfo = MASPreferences;
+		};
+		E98E0D8A1DDDC3EC000CA3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98E0D841DDDC3E8000CA3FC /* MASPreferences.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F16AF7F31BA279F10022155C;
+			remoteInfo = MASPreferences;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -183,14 +192,6 @@
 		83099C9519ADBB2E00DDBF1D /* BGThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGThemeManager.m; sourceTree = "<group>"; };
 		83099C9619ADBB2E00DDBF1D /* NSTokenAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTokenAttachment.h; sourceTree = "<group>"; };
 		83099C9719ADBB2E00DDBF1D /* NSTokenAttachmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTokenAttachmentCell.h; sourceTree = "<group>"; };
-		8310B0101A0215F700ED8EB0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		8310B0111A0215F700ED8EB0 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
-		8310B0121A0215F700ED8EB0 /* MASPreferences.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MASPreferences.podspec; sourceTree = "<group>"; };
-		8310B0131A0215F700ED8EB0 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
-		8310B0141A0215F700ED8EB0 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
-		8310B0151A0215F700ED8EB0 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
-		8310B0161A0215F700ED8EB0 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
-		8310B0171A0215F700ED8EB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		8310B01F1A022E7900ED8EB0 /* OMCAboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OMCAboutView.xib; path = "Oh My Cal!/OMCAboutView.xib"; sourceTree = "<group>"; };
 		8310B0211A022EB400ED8EB0 /* OMCAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCAboutViewController.h; path = "Oh My Cal!/OMCAboutViewController.h"; sourceTree = "<group>"; };
 		8310B0221A022EB400ED8EB0 /* OMCAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMCAboutViewController.m; path = "Oh My Cal!/OMCAboutViewController.m"; sourceTree = "<group>"; };
@@ -227,22 +228,22 @@
 		839396F719ADF459008D8A3C /* statusbar-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "statusbar-logo.png"; path = "Oh My Cal!/Resources/statusbar-logo.png"; sourceTree = "<group>"; };
 		839396FA19AE1D81008D8A3C /* OMCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCCommon.m; sourceTree = "<group>"; };
 		83A9BE2319DE448B001511C9 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
-		83D5D4C119ADB172004AFD84 /* Oh My Cal!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oh My Cal!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D5D4C119ADB172004AFD84 /* OhMyCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhMyCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D5D4C419ADB172004AFD84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		83D5D4C719ADB172004AFD84 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		83D5D4C819ADB172004AFD84 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		83D5D4C919ADB172004AFD84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		83D5D4CC19ADB172004AFD84 /* Oh My Cal!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oh My Cal!-Info.plist"; sourceTree = "<group>"; };
+		83D5D4CC19ADB172004AFD84 /* OhMyCal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OhMyCal-Info.plist"; sourceTree = "<group>"; };
 		83D5D4CE19ADB172004AFD84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83D5D4D019ADB172004AFD84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83D5D4D219ADB172004AFD84 /* Oh My Cal!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oh My Cal!-Prefix.pch"; sourceTree = "<group>"; };
+		83D5D4D219ADB172004AFD84 /* OhMyCal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OhMyCal-Prefix.pch"; sourceTree = "<group>"; };
 		83D5D4D619ADB172004AFD84 /* OMCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMCAppDelegate.h; sourceTree = "<group>"; };
 		83D5D4D719ADB172004AFD84 /* OMCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMCAppDelegate.m; sourceTree = "<group>"; };
 		83D5D4DA19ADB172004AFD84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OMCMainMenu.xib; sourceTree = "<group>"; };
 		83D5D4DC19ADB172004AFD84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		83D5D4E219ADB172004AFD84 /* Oh My Cal!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oh My Cal!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D5D4E219ADB172004AFD84 /* OhMyCal.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhMyCal.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D5D4E319ADB172004AFD84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		83D5D4EA19ADB172004AFD84 /* Oh My Cal!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oh My Cal!Tests-Info.plist"; sourceTree = "<group>"; };
+		83D5D4EA19ADB172004AFD84 /* OhMyCalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OhMyCalTests-Info.plist"; sourceTree = "<group>"; };
 		83D5D4EC19ADB172004AFD84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83D5D4EE19ADB172004AFD84 /* Oh_My_Cal_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oh_My_Cal_Tests.m; sourceTree = "<group>"; };
 		83D5D4F819ADB17B004AFD84 /* Oh My Cal!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Oh My Cal!.entitlements"; sourceTree = "<group>"; };
@@ -281,6 +282,7 @@
 		83FD69A119C3753000B4488C /* OMCCalWithBasicStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMCCalWithBasicStyle.m; path = "Oh My Cal!/OMCCalWithBasicStyle.m"; sourceTree = "<group>"; };
 		83FD69A319C3820200B4488C /* OMCCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMCCal.h; path = "Oh My Cal!/OMCCal.h"; sourceTree = "<group>"; };
 		83FD69A419C3820200B4488C /* OMCCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMCCal.m; path = "Oh My Cal!/OMCCal.m"; sourceTree = "<group>"; };
+		E98E0D841DDDC3E8000CA3FC /* MASPreferences.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MASPreferences.xcodeproj; path = MASPreferences/MASPreferences.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +290,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98E0D8C1DDDC3F3000CA3FC /* MASPreferences.framework in Frameworks */,
 				833A60F21A1B59C7009C8ED5 /* FBKVOController.framework in Frameworks */,
 				83DE176919DABC2F00D38667 /* Carbon.framework in Frameworks */,
 				83A9BE2419DE448B001511C9 /* ServiceManagement.framework in Frameworks */,
@@ -375,29 +378,6 @@
 			path = "Oh My Cal!/BGHUDAppKit";
 			sourceTree = "<group>";
 		};
-		8310B00F1A0215F700ED8EB0 /* MASPreferences */ = {
-			isa = PBXGroup;
-			children = (
-				8310B01E1A021BB900ED8EB0 /* Resoureces */,
-				8310B0131A0215F700ED8EB0 /* MASPreferencesViewController.h */,
-				8310B0151A0215F700ED8EB0 /* MASPreferencesWindowController.h */,
-				8310B0161A0215F700ED8EB0 /* MASPreferencesWindowController.m */,
-				8310B0111A0215F700ED8EB0 /* LICENSE.md */,
-				8310B0171A0215F700ED8EB0 /* README.md */,
-				8310B0121A0215F700ED8EB0 /* MASPreferences.podspec */,
-				8310B0101A0215F700ED8EB0 /* .gitignore */,
-			);
-			path = MASPreferences;
-			sourceTree = SOURCE_ROOT;
-		};
-		8310B01E1A021BB900ED8EB0 /* Resoureces */ = {
-			isa = PBXGroup;
-			children = (
-				8310B0141A0215F700ED8EB0 /* MASPreferencesWindow.xib */,
-			);
-			name = Resoureces;
-			sourceTree = "<group>";
-		};
 		833F645219AF2FAE001C7C35 /* Calculation */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,13 +426,13 @@
 		83D5D4B819ADB172004AFD84 = {
 			isa = PBXGroup;
 			children = (
+				E98E0D841DDDC3E8000CA3FC /* MASPreferences.xcodeproj */,
 				83ED014819BC9627004E7F9E /* OhMyCal.icns */,
 				833F645219AF2FAE001C7C35 /* Calculation */,
 				83D5D51F19ADB452004AFD84 /* Main Panel */,
 				83D5D52119ADB46E004AFD84 /* Status Bar */,
 				83D5D4CA19ADB172004AFD84 /* Whole App */,
 				83D5D51D19ADB3F3004AFD84 /* Other Panels */,
-				8310B00F1A0215F700ED8EB0 /* MASPreferences */,
 				83D5D4CB19ADB172004AFD84 /* Supporting Files */,
 				83D5D4E819ADB172004AFD84 /* Oh My Cal!Tests */,
 				83D5D4C319ADB172004AFD84 /* Frameworks */,
@@ -465,8 +445,8 @@
 		83D5D4C219ADB172004AFD84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83D5D4C119ADB172004AFD84 /* Oh My Cal!.app */,
-				83D5D4E219ADB172004AFD84 /* Oh My Cal!Tests.xctest */,
+				83D5D4C119ADB172004AFD84 /* OhMyCal.app */,
+				83D5D4E219ADB172004AFD84 /* OhMyCal.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -509,14 +489,14 @@
 			isa = PBXGroup;
 			children = (
 				83D5D4F819ADB17B004AFD84 /* Oh My Cal!.entitlements */,
-				83D5D4CC19ADB172004AFD84 /* Oh My Cal!-Info.plist */,
+				83D5D4CC19ADB172004AFD84 /* OhMyCal-Info.plist */,
 				83D5D4DC19ADB172004AFD84 /* Images.xcassets */,
 				83D5D4CD19ADB172004AFD84 /* InfoPlist.strings */,
 				839396F119ADE567008D8A3C /* OMCDefaults.plist */,
 				83D5D51C19ADB26C004AFD84 /* OMCCommon.h */,
 				839396FA19AE1D81008D8A3C /* OMCCommon.m */,
 				83D5D4D019ADB172004AFD84 /* main.m */,
-				83D5D4D219ADB172004AFD84 /* Oh My Cal!-Prefix.pch */,
+				83D5D4D219ADB172004AFD84 /* OhMyCal-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			path = "Oh My Cal!";
@@ -534,7 +514,7 @@
 		83D5D4E919ADB172004AFD84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				83D5D4EA19ADB172004AFD84 /* Oh My Cal!Tests-Info.plist */,
+				83D5D4EA19ADB172004AFD84 /* OhMyCalTests-Info.plist */,
 				83D5D4EB19ADB172004AFD84 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -626,12 +606,20 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		E98E0D851DDDC3E8000CA3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E98E0D891DDDC3E9000CA3FC /* MASPreferences.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83D5D4C019ADB172004AFD84 /* Oh My Cal! */ = {
+		83D5D4C019ADB172004AFD84 /* OhMyCal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83D5D4F219ADB172004AFD84 /* Build configuration list for PBXNativeTarget "Oh My Cal!" */;
+			buildConfigurationList = 83D5D4F219ADB172004AFD84 /* Build configuration list for PBXNativeTarget "OhMyCal" */;
 			buildPhases = (
 				83D5D4BD19ADB172004AFD84 /* Sources */,
 				83D5D4BE19ADB172004AFD84 /* Frameworks */,
@@ -641,15 +629,16 @@
 			buildRules = (
 			);
 			dependencies = (
+				E98E0D8B1DDDC3EC000CA3FC /* PBXTargetDependency */,
 			);
-			name = "Oh My Cal!";
+			name = OhMyCal;
 			productName = "Oh My Cal!";
-			productReference = 83D5D4C119ADB172004AFD84 /* Oh My Cal!.app */;
+			productReference = 83D5D4C119ADB172004AFD84 /* OhMyCal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83D5D4E119ADB172004AFD84 /* Oh My Cal!Tests */ = {
+		83D5D4E119ADB172004AFD84 /* OhMyCalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83D5D4F519ADB172004AFD84 /* Build configuration list for PBXNativeTarget "Oh My Cal!Tests" */;
+			buildConfigurationList = 83D5D4F519ADB172004AFD84 /* Build configuration list for PBXNativeTarget "OhMyCalTests" */;
 			buildPhases = (
 				83D5D4DE19ADB172004AFD84 /* Sources */,
 				83D5D4DF19ADB172004AFD84 /* Frameworks */,
@@ -660,9 +649,9 @@
 			dependencies = (
 				83D5D4E719ADB172004AFD84 /* PBXTargetDependency */,
 			);
-			name = "Oh My Cal!Tests";
+			name = OhMyCalTests;
 			productName = "Oh My Cal!Tests";
-			productReference = 83D5D4E219ADB172004AFD84 /* Oh My Cal!Tests.xctest */;
+			productReference = 83D5D4E219ADB172004AFD84 /* OhMyCal.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -676,7 +665,7 @@
 				ORGANIZATIONNAME = "Tong G.";
 				TargetAttributes = {
 					83D5D4C019ADB172004AFD84 = {
-						DevelopmentTeam = 89BSC2UYH8;
+						DevelopmentTeam = FQU24TXA6W;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -688,7 +677,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83D5D4BC19ADB172004AFD84 /* Build configuration list for PBXProject "Oh My Cal!" */;
+			buildConfigurationList = 83D5D4BC19ADB172004AFD84 /* Build configuration list for PBXProject "OhMyCal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -699,20 +688,35 @@
 			mainGroup = 83D5D4B819ADB172004AFD84;
 			productRefGroup = 83D5D4C219ADB172004AFD84 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E98E0D851DDDC3E8000CA3FC /* Products */;
+					ProjectRef = E98E0D841DDDC3E8000CA3FC /* MASPreferences.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				83D5D4C019ADB172004AFD84 /* Oh My Cal! */,
-				83D5D4E119ADB172004AFD84 /* Oh My Cal!Tests */,
+				83D5D4C019ADB172004AFD84 /* OhMyCal */,
+				83D5D4E119ADB172004AFD84 /* OhMyCalTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E98E0D891DDDC3E9000CA3FC /* MASPreferences.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MASPreferences.framework;
+			remoteRef = E98E0D881DDDC3E9000CA3FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		83D5D4BF19ADB172004AFD84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8310B0191A0215F700ED8EB0 /* LICENSE.md in Resources */,
 				83D5D4CF19ADB172004AFD84 /* InfoPlist.strings in Resources */,
 				83D5D52519ADB819004AFD84 /* OMFMainPanel.xib in Resources */,
 				83DE176719DA9DC100D38667 /* xroot.png in Resources */,
@@ -721,16 +725,12 @@
 				83DD4A1219B1B0B2007F530A /* settings.png in Resources */,
 				83ED014D19BC97FC004E7F9E /* logo.png in Resources */,
 				8316FF9119ED4DDF007C5840 /* github.png in Resources */,
-				8310B01D1A0215F700ED8EB0 /* README.md in Resources */,
 				83D5D4DD19ADB172004AFD84 /* Images.xcassets in Resources */,
 				832A8C8119D90BCD005DB2A7 /* twitter.png in Resources */,
 				832A8C8819D914CD005DB2A7 /* pubkey.txt in Resources */,
 				8310B0251A023BB200ED8EB0 /* OMCGeneralView.xib in Resources */,
 				832A8C8219D90BCD005DB2A7 /* email.png in Resources */,
-				8310B01B1A0215F700ED8EB0 /* MASPreferencesWindow.xib in Resources */,
 				8310B0201A022E7900ED8EB0 /* OMCAboutView.xib in Resources */,
-				8310B0181A0215F700ED8EB0 /* .gitignore in Resources */,
-				8310B01A1A0215F700ED8EB0 /* MASPreferences.podspec in Resources */,
 				83ED014919BC9627004E7F9E /* OhMyCal.icns in Resources */,
 				832A24A619C4387E005E79A5 /* README.md in Resources */,
 				839396F919ADF459008D8A3C /* statusbar-logo.png in Resources */,
@@ -797,7 +797,6 @@
 				83DD4A1519B1B11A007F530A /* OMCSettingsBar.m in Sources */,
 				83099CA919ADBB2E00DDBF1D /* BGHUDTableCornerView.m in Sources */,
 				83099CB319ADBB2E00DDBF1D /* BGThemeManager.m in Sources */,
-				8310B01C1A0215F700ED8EB0 /* MASPreferencesWindowController.m in Sources */,
 				83099C9A19ADBB2E00DDBF1D /* BGHUDButtonCell.m in Sources */,
 				83099C9D19ADBB2E00DDBF1D /* BGHUDCommon.m in Sources */,
 				83099CAD19ADBB2E00DDBF1D /* BGHUDTabViewItem.m in Sources */,
@@ -827,8 +826,13 @@
 /* Begin PBXTargetDependency section */
 		83D5D4E719ADB172004AFD84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83D5D4C019ADB172004AFD84 /* Oh My Cal! */;
+			target = 83D5D4C019ADB172004AFD84 /* OhMyCal */;
 			targetProxy = 83D5D4E619ADB172004AFD84 /* PBXContainerItemProxy */;
+		};
+		E98E0D8B1DDDC3EC000CA3FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MASPreferences;
+			targetProxy = E98E0D8A1DDDC3EC000CA3FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -976,9 +980,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Oh My Cal!/Oh My Cal!-Prefix.pch";
-				INFOPLIST_FILE = "Oh My Cal!/Oh My Cal!-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Oh My Cal!/OhMyCal-Prefix.pch";
+				INFOPLIST_FILE = "Oh My Cal!/OhMyCal-Info.plist";
+				PRODUCT_NAME = OhMyCal;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1030,9 +1034,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Oh My Cal!/Oh My Cal!-Prefix.pch";
-				INFOPLIST_FILE = "Oh My Cal!/Oh My Cal!-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Oh My Cal!/OhMyCal-Prefix.pch";
+				INFOPLIST_FILE = "Oh My Cal!/OhMyCal-Info.plist";
+				PRODUCT_NAME = OhMyCal;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1048,13 +1052,13 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Oh My Cal!/Oh My Cal!-Prefix.pch";
+				GCC_PREFIX_HEADER = "Oh My Cal!/OhMyCal-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Oh My Cal!Tests/Oh My Cal!Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Oh My Cal!Tests/OhMyCalTests-Info.plist";
+				PRODUCT_NAME = OhMyCal;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1070,9 +1074,9 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Oh My Cal!/Oh My Cal!-Prefix.pch";
-				INFOPLIST_FILE = "Oh My Cal!Tests/Oh My Cal!Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Oh My Cal!/OhMyCal-Prefix.pch";
+				INFOPLIST_FILE = "Oh My Cal!Tests/OhMyCalTests-Info.plist";
+				PRODUCT_NAME = OhMyCal;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1081,7 +1085,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83D5D4BC19ADB172004AFD84 /* Build configuration list for PBXProject "Oh My Cal!" */ = {
+		83D5D4BC19ADB172004AFD84 /* Build configuration list for PBXProject "OhMyCal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83D5D4F019ADB172004AFD84 /* Debug */,
@@ -1090,7 +1094,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83D5D4F219ADB172004AFD84 /* Build configuration list for PBXNativeTarget "Oh My Cal!" */ = {
+		83D5D4F219ADB172004AFD84 /* Build configuration list for PBXNativeTarget "OhMyCal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83D5D4F319ADB172004AFD84 /* Debug */,
@@ -1099,7 +1103,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83D5D4F519ADB172004AFD84 /* Build configuration list for PBXNativeTarget "Oh My Cal!Tests" */ = {
+		83D5D4F519ADB172004AFD84 /* Build configuration list for PBXNativeTarget "OhMyCalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83D5D4F619ADB172004AFD84 /* Debug */,

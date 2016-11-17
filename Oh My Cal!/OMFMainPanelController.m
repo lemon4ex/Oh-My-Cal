@@ -35,7 +35,7 @@
 #import "OMFStatusItemView.h"
 #import "OMFPanelBackgroundView.h"
 
-#import "MASPreferencesWindowController.h"
+#import <MASPreferences/MASPreferencesWindowController.h>
     #import "OMCGeneralViewController.h"
     #import "OMCKeyBindingsViewController.h"
     #import "OMCAboutViewController.h"

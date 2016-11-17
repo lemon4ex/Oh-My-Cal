@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D30F5457-CF72-4758-9233-005F1689C22E" : 0,
+    "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244" : 0,
+    "1AA6A00E595DC228559FDCC8AE09DFD29C6565E8" : 0,
+    "F0515DE9ED749C0E1C50A307EAD2A54C575AF047" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2D32D7EF-37B4-4F63-9040-3D94EF708E04",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D30F5457-CF72-4758-9233-005F1689C22E" : "Oh My Cal!",
+    "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244" : "Oh%20My%20Cal!",
+    "1AA6A00E595DC228559FDCC8AE09DFD29C6565E8" : "",
+    "F0515DE9ED749C0E1C50A307EAD2A54C575AF047" : "Oh%20My%20Cal!\/MASPreferences"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Oh My Cal!",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Oh My Cal!.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/TongGuo\/test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AA6A00E595DC228559FDCC8AE09DFD29C6565E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/TongGuo\/oh-my-cal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/TongGuo\/oh-my-cal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D30F5457-CF72-4758-9233-005F1689C22E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TongG\/MASPreferences.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0515DE9ED749C0E1C50A307EAD2A54C575AF047"
+    }
+  ]
+}

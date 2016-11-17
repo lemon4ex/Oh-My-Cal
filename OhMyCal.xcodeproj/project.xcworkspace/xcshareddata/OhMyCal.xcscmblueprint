@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F0515DE9ED749C0E1C50A307EAD2A54C575AF047" : 0,
+    "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "78310CBB-1CA0-4C01-833F-9CC00DE6DDB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F0515DE9ED749C0E1C50A307EAD2A54C575AF047" : "Oh-My-Cal\/MASPreferences\/",
+    "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244" : "Oh-My-Cal\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OhMyCal",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OhMyCal.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lemon4ex\/Oh-My-Cal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6813FA0ABFF4C2EA59AC2E827C14899BB8B5F244"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shpakovski\/MASPreferences.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0515DE9ED749C0E1C50A307EAD2A54C575AF047"
+    }
+  ]
+}
